@@ -9,13 +9,20 @@
     </head>
     <body>
         <header>
-            <div id="header-center"> <!--가운데 정렬용 div-->
-                <div>
-                    <span>네이버를 시작페이지로</span>
-                    <span>쥬니어네이버</span>
-                    <span>해피빈</span>
+            <div id="header-area_flex"> 
+                <div id="header-area_link">
+                    <a href="./naver.html" class="favorite">네이버를 시작페이지로</a>
+                    <span class="bar"></span>
+                    <a href="./naver.html">
+                        <span class="blind">쥬니어네이버</span>
+                        <span class="jr_naver"></span>
+                    </a>
+                    <a href="./naver.html">
+                        <span class="blind">해피빈</span>
+                        <span class="happy_bean"></span>
+                    </a>
                 </div>
-                <div id="header-search">
+                <div id="header-area_main">
                     <a href="./naver.html">
                         <h1>
                             <span>네이버</span>
@@ -25,7 +32,10 @@
                     <fieldset> 
                         <legend class="blind">검색</legend>
                         <input />
-                        <button class="blind">검색</button>
+                        <button type="submit">
+                            <span class="blind">검색</span>
+                            <span class="search-button-icon"></span>
+                        </button>
                     </fieldset>
                 </div> 
                 
@@ -33,13 +43,48 @@
         </header>
         <nav>
             <ul>
-                <li>메일</li>
-                <li>카페</li>
-                <li>블로그</li>
-                <li>지식인</li>
-                <li>쇼핑</li>
-                <li>네이버페이</li>
-                <li>네이버TV</li>
+                <li class="mail-item">
+                    <a href="./naver.html">
+                        <span class="icon"></span>
+                        <span class="blind">메일</span>
+                    </a>
+                </li>
+                <li class="cafe-item">
+                    <a href="./naver.html">
+                        <span class="icon"></span>
+                        <span class="blind">카페</span>
+                    </a>
+                </li>
+                <li class="blog-item">
+                    <a href="./naver.html">
+                        <span class="icon"></span>
+                        <span class="blind">블로그</span>
+                    </a>
+                </li>
+                <li class="knowledge-item">
+                    <a href="./naver.html">
+                        <span class="icon"></span>
+                        <span class="blind">지식인</span>
+                    </a>
+                </li>
+                <li class="shop-item">
+                    <a href="./naver.html">
+                        <span class="icon"></span>
+                        <span class="blind">쇼핑</span>
+                    </a>
+                </li>
+                <li class="pay-item">
+                    <a href="./naver.html">
+                        <span class="icon"></span>
+                        <span class="blind">네이버페이</span>
+                    </a>
+                </li>
+                <li class="tv-item">
+                    <a href="./naver.html">
+                        <span class="icon"></span>
+                        <span class="blind">네이버TV</span>
+                    </a>
+                </li>
             </ul>
         </nav>
         <main>
